@@ -1,0 +1,101 @@
+rank,name,net_worth,bday,age,nationality
+1,Elon Musk,$240 Billion,28-Jun-71,51,South Africa
+2,Jeff Bezos,$150 Billion,12-Jan-64,58,United States of America
+3,Gautam Adani,$138 Billion,24-Jun-62,60,India
+4,Bernard Arnault,$135 Billion,5-Mar-49,73,France
+5,Bill Gates,$118 Billion,28-Oct-55,66,United States of America
+6,Warren Buffett,$101 Billion,30-Aug-30,92,United States of America
+7,Larry Page,$100 Billion,26-Mar-73,49,United States of America
+8,Sergey Brin,$96 Billion,21-Aug-73,48,United States of America
+9,Steve Ballmer,$94 Billion,24-Mar-56,66,United States of America
+10,Larry Ellison,$93 Billion,17-Aug-44,78,United States of America
+11,Alain & Gerard Wertheimer,$90 Billion,,,France
+12,Mukesh Ambani,$89 Billion,19-Apr-57,65,India
+13,Carlos Slim Helu,$72 Billion,28-Jan-40,82,Mexico
+14,Vladimir Putin,$70 Billion,7-Oct-52,69,Russia
+15,Françoise Bettencourt-Meyers,$70 Billion,10-Jul-53,69,France
+16,Amancio Ortega Gaona,$70 Billion,28-Mar-36,86,Spain
+17,Michael Bloomberg,$70 Billion,14-Feb-42,80,United States of America
+18,Mark Zuckerberg,$70 Billion,14-May-84,38,United States of America
+19,Rob Walton,$68 Billion,28-Oct-44,77,United States of America
+20,Jim Walton,$68 Billion,7-Jun-48,74,United States of America
+21,Zhong Shanshan,$68 Billion,,,China
+22,Alice Walton,$66 Billion,7-Oct-49,72,United States of America
+23,Julia Flesher Koch,$62 Billion,12-Apr-62,60,United States of America
+24,Charles Koch,$60 Billion,1-Nov-35,86,United States of America
+25,Michael Dell,$52 Billion,23-Feb-65,57,United States of America
+26,Francois Pinault,$50 Billion,21-Aug-36,86,France
+27,David Thomson,$50 Billion,12-Jun-57,65,Canada
+28,Ma Huateng,$48 Billion,29-Oct-71,50,China
+29,Alain Wertheimer,$45 Billion,28-Sep-48,73,France
+30,Gerard Wertheimer,$45 Billion,17-Apr-51,71,French
+31,Zhang Yiming,$44 Billion,1-Apr-83,39,China
+32,Tadashi Yanai,$42 Billion,7-Feb-49,73,Japan
+33,John Mars,$42 Billion,15-Oct-35,86,United States of America
+34,Jacqueline Mars,$42 Billion,10-Oct-39,82,United States of America
+35,Phil Knight,$40 Billion,24-Feb-38,84,United States of America
+36,Vladimir Potanin,$35 Billion,3-Jan-61,61,Russia
+37,Stephen Schwarzman,$35 Billion,14-Feb-47,75,United States of America
+38,Jack Ma,$34 Billion,15-Oct-64,57,China
+39,Miriam Adelson,$34 Billion,10-Oct-45,76,"American, Israeli"
+40,Colin Huang,$33 Billion,1-Jan-80,42,China
+41,Lee Shau Kee,$33 Billion,29-Jan-28,94,China
+42,Len Blavatnik,$32 Billion,14-Jun-57,65,United Kingdom
+43,Li Ka-shing,$31 Billion,29-Jul-28,94,Canada
+44,Gina Rinehart,$31 Billion,9-Feb-54,68,Australia
+45,Sheikh Mansour bin Zayed Al Nahyan,$30 Billion,20-Nov-70,51,Emirati
+46,Masayoshi Son,$30 Billion,11-Aug-57,65,Japan
+47,Sultan of Brunei,$30 Billion,15-Jul-46,76,Brunei
+48,Maha Vajiralongkorn,$30 Billion,28-Jul-52,70,Thailand
+49,Giovanni Ferrero,$28 Billion,21-Sep-64,57,Italy
+50,Ken Griffin,$28 Billion,15-Oct-68,53,United States of America
+51,Abigail Johnson,$28 Billion,19-Dec-61,60,United States of America
+52,He Xiangjian,$27 Billion,5-Oct-42,79,China
+53,Dieter Schwarz,$27 Billion,24-Sep-39,82,Germany
+54,William Ding,$26 Billion,1-Oct-71,50,China
+55,Shiv Nadar,$25.9 Billion,14-Jul-45,77,India
+56,Stefan Persson,$25 Billion,4-Oct-47,74,Sweden
+57,Joseph Safra,$25 Billion,1-Sep-38,,Brazil
+58,Eric Yuan,$25 Billion,20-Feb-70,52,China
+59,Carl Icahn,$24 Billion,16-Feb-36,86,United States of America
+60,Takemitsu Takizaki,$24 Billion,10-Jun-45,77,Japan
+61,Pierre Omidyar,$24 Billion,21-Jun-67,55,United States of America
+62,Forrest Mars Jr,$23.4 Billion,16-Aug-31,91,United States of America
+63,Jorge Paulo Lemann,$23 Billion,26-Aug-39,83,Brazil
+64,Eric Schmidt,$23 Billion,27-Apr-55,67,United States of America
+65,Satoshi Nakamoto,$22 Billion,5-Apr-75,73,Japan
+66,Qin Yinglin,$22 Billion,,57,China
+67,James Simons,$22 Billion,25-Apr-38,84,United States of America
+68,Wang Wei,$22 Billion,,51,China
+69,James Dyson,$22 Billion,2-May-47,75,United Kingdom
+70,Aliko Dangote,$21 Billion,10-Apr-57,65,Nigeria
+71,Leonard Lauder,$21 Billion,19-Mar-33,89,United States of America
+72,Andrey Melnichenko,$21 Billion,8-Mar-72,50,Russia
+73,Sir Evelyn De Rothschild,$20 Billion,29-Aug-31,90,England
+74,Salman bin Abdulaziz Al Saud,$20 Billion,31-Dec-35,86,Saudi Arabia
+75,Alexey Mordashov,$20 Billion,26-Sep-65,56,Russia
+76,John Menard,$20 Billion,22-Jan-40,82,United States of America
+77,Elaine Marshall,$20 Billion,18-Nov-45,76,United States of America
+78,Rupert Murdoch,$20 Billion,11-Mar-31,91,Australia
+79,Dan Gilbert,$20 Billion,17-Jan-62,60,United States of America
+80,Leonid Mikhelson,$20 Billion,11-Aug-55,67,Russia
+81,Pallonji Mistry,$19 Billion,1-Jun-29,,India
+82,Susanne Klatten,$19 Billion,28-Apr-62,60,Germany
+83,Eduardo Saverin,$19 Billion,19-Mar-82,40,Brazil
+84,Vladimir Lisin,$19 Billion,7-May-56,66,Russia
+85,James Ratcliffe,$19 Billion,18-Oct-52,69,United Kingdom
+86,Laurene Powell Jobs,$19 Billion,6-Nov-63,58,United States of America
+87,Lakshmi Mittal,$18 Billion,2-Sep-50,71,India
+88,David & Simon Reuben,$18 Billion,,,United Kingdom
+89,Sheikh Khalifa Bin Zayed Al Nahyan,$18 Billion,25-Jan-48,74,United Arab Emirates
+90,Alisher Usmanov,$18 Billion,9-Sep-53,68,Russia
+91,Lukas Walton,$18 Billion,,36,United States of America
+92,Serge Dassault,$17.3 Billion,4-Apr-25,97,France
+93,Pavel Durov,$17 Billion,10-Oct-84,37,Russia
+94,Donald Bren,$17 Billion,11-May-32,90,United States of America
+95,Thomas Peterffy,$17 Billion,30-Sep-44,77,United States of America
+96,Prince Al Waleed Bin Talal Alsaud,$17 Billion,7-Mar-55,67,Saudi Arabia
+97,Harold Hamm,$17 Billion,11-Dec-45,76,United States of America
+98,Viktor Vekselberg,$17 Billion,14-Apr-57,65,Russia
+99,Steven Cohen,$16 Billion,11-Jun-56,66,United States of America
+100,Stefan Quandt,$16 Billion,9-May-66,56,Germany
