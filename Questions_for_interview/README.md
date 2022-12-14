@@ -64,7 +64,7 @@ BigData фреймворк с открытым исходным кодом, дл
 Хадуповский MapReduce обрабатывает данные на базе **дискового хранилища**, в то время как спарк использует специальные примитивы для рекуррентной обработки в **оперативной памяти**. За счет этого вычислительные задачи реализуются на спарке значительно **быстрее**. 
 
 <p align="center">
-<img src="/Questions_for_interview/Images/hadoopvsspark.png" width="80%"></p>
+<img src="/main/Questions_for_interview/Images/hadoopvsspark.png" width="80%"></p>
 
 ## RDD, DF, Dataset - разнциа между ними(в рамках PySpark только RDD и DF)
 
@@ -93,7 +93,7 @@ DAG (Направленный Ациклический Граф) в спарке
 -   Map() & filter() - относятся к узким трансформациям 
 
 <p align="center">
-<img src="/Questions_for_interview/Images/narrow-tranformation.png" width="80%"></p>
+<img src="/main/Questions_for_interview/Images/narrow-tranformation.png" width="80%"></p>
 
 ### Широкие трансформации
 
@@ -104,7 +104,7 @@ DAG (Направленный Ациклический Граф) в спарке
 -   GroupByKey(), aggregateByKey(), aggregate(), join(), repartition() - примеры функций 
 
 <p align="center">
-<img src="/Questions_for_interview/Images/wide-tranformation.png" width="80%"></p>
+<img src="/main/Questions_for_interview/Images/wide-tranformation.png" width="80%"></p>
 
 ## Что такое job, stage, task
 
