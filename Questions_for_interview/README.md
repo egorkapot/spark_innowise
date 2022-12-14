@@ -93,7 +93,7 @@ DAG (Направленный Ациклический Граф) в спарке
 -   Map() & filter() - относятся к узким трансформациям 
 
 <p align="center">
-<img src="/../main/Questions_for_interview/Images/narrow-tranformation.png" width="80%"></p>
+<img src="/../main/Questions_for_interview/Images/narrowtranformation.png" width="80%"></p>
 
 ### Широкие трансформации
 
