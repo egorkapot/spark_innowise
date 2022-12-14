@@ -64,7 +64,7 @@ BigData фреймворк с открытым исходным кодом, дл
 Хадуповский MapReduce обрабатывает данные на базе **дискового хранилища**, в то время как спарк использует специальные примитивы для рекуррентной обработки в **оперативной памяти**. За счет этого вычислительные задачи реализуются на спарке значительно **быстрее**. 
 
 <p align="center">
-<img src="/main/Questions_for_interview/Images/hadoopvsspark.png" width="80%"></p>
+<img src="/../main/Questions_for_interview/Images/hadoopvsspark.png" width="80%"></p>
 
 ## RDD, DF, Dataset - разнциа между ними(в рамках PySpark только RDD и DF)
 
