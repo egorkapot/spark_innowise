@@ -173,7 +173,7 @@ Spark выбирает конкретный механизм для выполн
 
 ## Разница между repartion и coalesce(просто ответа что coalesce ток уменьшает а repartition может и увеличивать мало.Логику того как под капотом это работает. 
 
-Сейчас будет затронута тема оптимизации и зачем вообще использовать **repartition**. Ее можно опустить и перейти сразу к [ответу на вопрос](https://github.com/egorkapot/Innowise_Spark_task/tree/main/Questions_for_interview#Разница между Repartition и Coalesce) в чем же разница.  
+Сейчас будет затронута тема оптимизации и зачем вообще использовать **repartition**. Ее можно опустить и перейти сразу к [ответу на вопрос](https://github.com/egorkapot/Innowise_Spark_task/tree/main/Questions_for_interview#%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-repartition-%D0%B8-coalesce) в чем же разница.  
 
 ### Зачем использовать repartition 
 
