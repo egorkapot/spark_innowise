@@ -188,6 +188,15 @@ df = spark.read.csv("/path/to/data.csv").repartition(200)
 
 Это разделит файл на 200 партиций которые будут распределены по нодам.
 
+## Как партиционировать сжатый файл в Spark
+
+Когда мы читаем сжатый файл в Spark, он начинает читать файл чанками и каждый чанк делит на партиции. Можно использовать ```repartition()``` для указания количества партиций при прочитении сжатого файла. Например:
+```
+# Read a compressed CSV file and repartition it into 8 partitions
+df = spark.read.format("csv").option("inferSchema", "true").option("header", "true").option("codec", "gzip").load("/path/to/data.csv.gz").repartition(8)
+```
+Это разделит сжатый CSV на 8 партиций используя дефолтную стратегию партиционирования Spark (hash partitioning). Вы сами можете указать другую стратегию партиционирования.
+ 
 ## Разница между repartion и coalesce(просто ответа что coalesce ток уменьшает а repartition может и увеличивать мало.Логику того как под капотом это работает. 
 
 Сейчас будет затронута тема оптимизации и зачем вообще использовать **repartition**. Ее можно опустить и перейти сразу к [ответу на вопрос](https://github.com/egorkapot/Innowise_Spark_task/tree/main/Questions_for_interview#%D1%80%D0%B0%D0%B7%D0%BD%D0%B8%D1%86%D0%B0-%D0%BC%D0%B5%D0%B6%D0%B4%D1%83-repartition-%D0%B8-coalesce) в чем же разница.  
