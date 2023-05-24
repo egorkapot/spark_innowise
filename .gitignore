@@ -25,6 +25,7 @@ var/
 .vscode
 .mypy_cache
 .pytest_cache
+.idea
 
 # Installer logs
 pip-log.txt
