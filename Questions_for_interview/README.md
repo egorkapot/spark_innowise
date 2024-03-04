@@ -318,10 +318,6 @@ Spark SQL shuffle это механизм отвечающий за распре
 
 На бумаге должно из нескольких физических планов выбирать самый дешевый, на практике скорее всего придется столкнуться с тем, что план выбирается рандомно. Если интересено, вот ссылки: [раз](https://www.waitingforcode.com/apache-spark-sql/spark-sql-cost-based-optimizer/read) и [два](https://stackoverflow.com/questions/58419751/apache-spark-cost-based-optimizercbo-stats-are-not-used-while-evaluating-query).
 
-### CBO - Cost based optimization
-
-На бумаге должно из нескольких физических планов выбирать самый дешевый, на практике скорее всего придется столкнуться с тем, что план выбирается рандомно. Если интересено, вот ссылки: [раз](https://www.waitingforcode.com/apache-spark-sql/spark-sql-cost-based-optimizer/read) и [два](https://stackoverflow.com/questions/58419751/apache-spark-cost-based-optimizercbo-stats-are-not-used-while-evaluating-query).
-
 ### Генерация кода 
 
 Этап создания **байт-кода Java** для запуска на каждой машине. Для этого используется функция Scala – QuasiQuotes для преобразования дерева задания в абстрактное синтаксическое дерево (AST) которое компилирует и запускает код 
