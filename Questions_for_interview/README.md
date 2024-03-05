@@ -316,7 +316,7 @@ Spark SQL shuffle это механизм отвечающий за распре
 
 #### CBO - Cost based optimization
 
-На бумаге должно из нескольких физических планов выбирать самый дешевый, на практике скорее всего придется столкнуться с тем, что план выбирается рандомно. Если интересено, вот ссылки: [раз](https://www.waitingforcode.com/apache-spark-sql/spark-sql-cost-based-optimizer/read) и [два](https://stackoverflow.com/questions/58419751/apache-spark-cost-based-optimizercbo-stats-are-not-used-while-evaluating-query).
+По умолчанию фича отключена, что бы включить нужно проставить `spark.sql.cbo.enabled` и вызвать сбор статистики через ANALYZE. Проблема в том, что ANALYZE работает только с Hive и in-memory храниищами данных, и не работает правильно с парцицырованными Hive parquet таблицами. Тем не менее, Databricks например реализует [свою имплементацию ANALYZE](https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-aux-analyze-table.html). Из-за этого неожиданно оказывается, что во CBO может работать, а может и нет - каждый раз лучше проверить.
 
 ### Генерация кода 
 
