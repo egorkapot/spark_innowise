@@ -316,7 +316,7 @@ Spark SQL shuffle это механизм отвечающий за распре
 
 #### CBO - Cost based optimization
 
-По умолчанию фича отключена, что бы включить нужно проставить `spark.sql.cbo.enabled` и вызвать сбор статистики через ANALYZE. Проблема в том, что ANALYZE работает только с Hive и in-memory храниищами данных, и не работает правильно с парцицырованными Hive parquet таблицами. Тем не менее, Databricks например реализует [свою имплементацию ANALYZE](https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-aux-analyze-table.html). Из-за этого неожиданно оказывается, что во CBO может работать, а может и нет - каждый раз лучше проверить.
+По умолчанию фича отключена, что бы включить нужно проставить `spark.sql.cbo.enabled` и вызвать сбор статистики через ANALYZE. Проблема в том, что ANALYZE работает только с Hive и in-memory храниищами данных, и сам CBO не работает правильно с партицированными Hive parquet таблицами. Тем не менее, Databricks например реализует [свою имплементацию ANALYZE](https://docs.databricks.com/en/sql/language-manual/sql-ref-syntax-aux-analyze-table.html). Из-за этого неожиданно оказывается, что во CBO может работать, а может и нет - каждый раз лучше проверить.
 
 ### Генерация кода 
 
